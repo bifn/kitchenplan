@@ -1,11 +1,11 @@
 groups:
-    - groupa
+    - development
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: MyComputerName
+        computername: Brians MacBook Pro
     homebrewalt:
         apps:
             - git-extras
