@@ -6,6 +6,8 @@ recipes:                                       # Configs are parsed and every li
         - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
 		 - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
 		 - osxdefaults::save_screenshots_to_the_desktop
+		 - osxdefaults::enable_remote_desktop
+		 - osxdefaults::enable_remote_login		
 attributes:
     homebrewalt:
         apps:
