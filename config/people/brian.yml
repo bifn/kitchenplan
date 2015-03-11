@@ -3,11 +3,14 @@ groups:
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+		- osxdefaults::dark_menu_bar_and_dock		# Optional but turns on the dark theme
 attributes:
     osxdefaults:
-        computername: Brians MacBook Pro
+        computername: Brians MacBook Pro			# Sets the device name
     homebrewalt:
         apps:
             - git-extras
         cask_apps:
             - sourcetree
+			- vagrant
+			
