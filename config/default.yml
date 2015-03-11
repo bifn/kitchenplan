@@ -19,4 +19,4 @@ attributes:
             - inconsolata
     nodejs:
         apps:
-            - bower
+            - bower								# A simple package manager
